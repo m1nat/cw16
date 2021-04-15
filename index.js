@@ -1,60 +1,43 @@
-// const user = {
-//     name: 'Vitaliy',
-//     age: 29,
-//     'bla bla bla': 'hello',
-//     sayHello: function() {
-//         console.log('Hello world');
+// const num = colonOdd(prompt('Enter your number', ));
+// console.log(num);
+
+
+// function colonOdd(num) {
+//     let colon = '';
+
+//     for (let i = 0; i < num.length; i++) {
+//         if((num[i] % 2 !== 0) && (num[i + 1] % 2 !== 0) && (num[i + 1])){
+//             colon += num[i] + ':';
+//         } else {
+//             colon += num[i];
+//         } 
 //     }
-// };
-// // console.log(user['bla bla bla'])
-// user.car = 'Mercedes';
-// console.log(user);
-
-// delete user.car;
-// job {
-
+// return colon
 // }
 
-const ctreateUser = (name, age) => ({ name,age })
-    
+// ___________________________________________________________________________________________________
 
-const sinkevich = ctreateUser('Vitaliy', 29);
-console.log(sinkevich);
 
-// const mushpakov = ctreateUser('Vitaliy_1', 39)
-// console.log('age' in sinkevich);
+// let arr = [1, 2, 3 ,4];
+// let str = 1;
 
-// for (let key in sinkevich){
-//     console.log(key);
+// function getFirst(array, n) {
+//     array.splice(n);
+//     n = array.join(' ');
+//     return n
 // }
+// __________________________________________________________________________________________________________
+// let x = getFirst(arr, str)
+// console.log(x);
 
-// for (let property in sinkevich){
-//     console.log(sinkevich[property]);
+// function getFirst(array, n) {
+//     array.splice(0, n);
+//     n = array.join(' ');
+//     return n
 // }
+// _____________________________________________________________________________________________________
 
-const users = [
-    {
-        name: 'Vitaliy',
-        age: 29,
-    },
-    {
-        name: 'Petya',
-        age: 17,
-    },
-    {
-        name: 'Senya',
-        age: 26,
-    },
-    {
-        name: 'Arseniy',
-        age: 20,
-    }
-]
-let x = [];
-for (let i = 0; i < users.length; i++){
-    if (users[i].age>18){
-        x.push(users[i].name)
-    }
 
-}
-console.log(x);
+
+
+
